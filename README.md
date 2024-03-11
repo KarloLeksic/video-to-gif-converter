@@ -1,2 +1,23 @@
-# video-to-gif-converter
-A simple Python script that converts videos into GIFs
+# Video to Gif Converter
+A simple Python script that converts videos into GIFs.
+
+## Prerequirements
+
+* Install python:
+```
+sudo apt install python3
+sudo apt install python3-pip
+```
+
+* Install moviepy:
+```
+pip install moviepy
+```
+
+## How to use it?
+
+* Clone this repo to your computer: 
+```git clone https://github.com/KarloLeksic/video-to-gif-converter.git```
+* Put all videos that you wanna convert to gifs into the `videos` folder.
+* When your terminal is positioned within this folder, just run ```python gifConverter.py``` to execute the script.
+* When the script is finished, your gifs are in `gifs` folder 😀
