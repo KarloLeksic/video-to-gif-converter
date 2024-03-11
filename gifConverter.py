@@ -33,7 +33,8 @@ def convertVideosToGifs(inputFolder, outputFolder, videoExtension, fps):
     # Print success message
     print(f"Successfully converted {n} {'video' if n == 1 else 'videos'}!")
 
-# Settings - adjust it for your needs
+
+# Parameters - adjust it for your needs
 inputFolder = "videos"
 outputFolder = "gifs"
 videoExtension = ".mp4"

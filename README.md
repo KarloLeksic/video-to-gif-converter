@@ -21,7 +21,13 @@ pip install moviepy
 git clone https://github.com/KarloLeksic/video-to-gif-converter.git
 ```
 * Put all videos that you wanna convert to gifs into the `videos` folder.
-* Adjust parameters according to your needs.
+* Adjust parameters according to your needs:
+```
+inputFolder = "videos"
+outputFolder = "gifs"
+videoExtension = ".mp4"
+gifFps = 10
+```
 * To execute the script, position the terminal in this folder, and just run: 
 ```
 python gifConverter.py
