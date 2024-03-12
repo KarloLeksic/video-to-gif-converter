@@ -25,7 +25,7 @@ git clone https://github.com/KarloLeksic/video-to-gif-converter.git
 ```
 inputFolder = "videos"
 outputFolder = "gifs"
-videoExtension = ".WEBM"
+videoExtension = ".webm"
 gifFps = 10
 ```
 * To execute the script, position the terminal in this folder, and just run: 

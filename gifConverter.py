@@ -37,7 +37,7 @@ def convertVideosToGifs(inputFolder, outputFolder, videoExtension, fps):
 # Parameters - adjust it for your needs
 inputFolder = "videos"
 outputFolder = "gifs"
-videoExtension = ".WEBM"
+videoExtension = ".webm"
 gifFps = 10
 
 # Call the function for converting
