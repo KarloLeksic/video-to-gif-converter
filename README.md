@@ -25,11 +25,11 @@ git clone https://github.com/KarloLeksic/video-to-gif-converter.git
 ```
 inputFolder = "videos"
 outputFolder = "gifs"
-videoExtension = ".mp4"
+videoExtension = ".WEBM"
 gifFps = 10
 ```
 * To execute the script, position the terminal in this folder, and just run: 
 ```
-python gifConverter.py
+python3 gifConverter.py
 ``` 
 * When the script is finished, your gifs are in `gifs` folder 😀
